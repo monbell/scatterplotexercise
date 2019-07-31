@@ -1,0 +1,38 @@
+
+{
+    name: 'Loan Amount',
+	selector: 'loan_amnt',
+	sortable: true,
+	//right: true,                                                                                               
+	},import React, { Component } from 'react';
+import DataTable from 'react-data-table-component';
+import loanData from './loanData';
+ 
+const data = loanData;
+const columns = [
+  {
+    name: 'ID',
+    selector: 'id',
+    sortable: true,
+  },
+  {
+    name: 'Loan Amount',
+    selector: 'loan_amnt',
+    sortable: true,
+    //right: true,
+  },
+];
+ 
+class MyComponent extends Component {
+  render() { 
+    return (
+      <DataTable
+        title="Loan Data"
+        columns={columns}
+        data={data}
+      />
+    )
+  }
+};
+
+export default MyComponent;

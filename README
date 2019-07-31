@@ -1,0 +1,28 @@
+Monica Bellare
+Fiddler Labs Front-end Scatter Plot Project
+
+1) How much time did you spend on the assignment?
+
+In total, I spent about 6 hours working on this assignment.
+
+2) If you used a plotting library, why did you choose it?
+
+I used the Plotly plotting library. I chose this library because it made creating scatterplots very easy, and it also allowed for an easy implementation of placing multiple scatterplots on one page–this was useful for creating the dashboard.
+
+3) What do you like about your implementation?
+
+I like the simple implementation I tried to achieve. I used to dropdown menus for the user to select the two variables to graph, and I have two buttons–one for creating a single scatterplot, and the other for showing the dashboard. This makes it easy for users of different technology backgrounds to interact with the UI.
+
+4) If you were to restart, what would you change about your implementation?
+
+If I were to restart, and more importantly if I had more time to research the best ways to do so, I would definitely implement extra features, such as allowing the user to delete plots from the dashboard, rearrange plot positions in the grid, and create multiple dashboards. In addition, I would change the dashboard to show a scatterplot of the most recently selected variables in the case that no plots had already been created–right now, the dashboard shows an empty graph if no graphs are created using the “Make Scatterplot” button before clicking “Dashboard”. I would also look more into styling and giving the page a more professional look.
+
+5) If you were given more time, how would you test your project?
+
+With more time, I would test my project with a larger dataset, in the case that the company wanted to add more data for plotting in the future. Additionally, I’d create a list of potential problems that could occur within the display of plots, and I’d troubleshoot for those. Finally, I’d play around with the number of graphs displayed in a dashboard, and try to find a more responsive implementation to fit the size of the dashboard. Right now, the dashboard and a single scatterplot are responsive on the page, but they aren’t as fast as they could be.
+
+
+///
+
+I used the starter code, but I changed App.js to MyComponent.js. You can run the code using npm install and npm start in Terminal.
+
